@@ -1,0 +1,79 @@
+title: Kahvela
+description: >-
+  Cekirdekten fincana bir kahve yardimcisi. Hesap yok, reklam yok,
+  internet izni yok.
+
+# baseurl bos birakilamaz: bos kalirsa sayfa ici baglar hb4sri.github.io
+# koklerine gider, kahvela-web'e degil.
+url: https://hb4sri.github.io
+baseurl: /kahvela-web
+
+lang: tr
+
+# --- Diller: sitenin TEK dil kaynagi -------------------------------------
+#
+# Sayfa kabugundaki her metin buradan gelir; sablonda ve betikte elle yazilmis
+# bir dil metni ya da elle yazilmis bir dil kodu YOKTUR. Sunum betigi bu
+# listeyi oldugu gibi okur (`site.diller | jsonify`) ve bolum sayisini da ona
+# gore bekler.
+#
+# YENI DIL EKLEMEK: buraya bir blok eklenir ve gizlilik.md'ye ayni SIRADA bir
+# `## ` bolumu yazilir. Sablona ve betige dokunulmaz.
+#
+# SIRA ONEMLI: betik dil bolumlerini basliklarindan degil, kaynak metindeki
+# siralarindan tanir. gizlilik.md'de once `## Türkçe`, sonra `## English`
+# geliyor; asagidaki sira onunla AYNI olmak zorunda.
+varsayilan_dil: en
+
+diller:
+  - kod: tr
+    etiket: Türkçe
+    yan: Bölümler
+    katla: İçindekiler
+    dil_etiket: Dil
+    nav_ana: Ana sayfa
+    nav_gizlilik: Gizlilik politikası
+    footer_hak: Tüm hakları saklıdır
+    tema: Tema
+    tema_sistem: Sistem
+    tema_acik: Açık
+    tema_koyu: Koyu
+  - kod: en
+    etiket: English
+    yan: Sections
+    katla: Contents
+    dil_etiket: Language
+    nav_ana: Home
+    nav_gizlilik: Privacy policy
+    footer_hak: All rights reserved
+    tema: Theme
+    tema_sistem: System
+    tema_acik: Light
+    tema_koyu: Dark
+
+# Kabuk metni olmayan sabitler.
+gelistirici: Hasan Basri GÖKKAYA
+telif_yili: 2026
+github: https://github.com/HB4sri
+
+# gizlilik.md, Kahvela'nin ozel notlarindaki yayin/gizlilik_politikasi.md ile birebir ayni kalsin
+# diye on bilgi (front matter) tasimaz. Sayfaya ne gerekiyorsa buradan verilir.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # Play Console'a ve uygulamanin icine tek bir adres verilecegi icin adres
+  # uzantisiz sabit: /gizlilik/.
+  - scope:
+      path: "gizlilik.md"
+    values:
+      permalink: /gizlilik/
+      # Sayfanin kendi h1'i zaten bu cumleyi tasiyor; <title> onu tekrar eder
+      # cunku Play "sayfa gizlilik politikasi diye etiketlenmis olmali" diyor
+      # ve etiketi sekmede de gormek istiyor.
+      title: "Kahvela Gizlilik Politikası / Privacy Policy"
+      aciklama: >-
+        Kahvela gizlilik politikasi: sunucu yok, hesap yok, internet izni yok.
+        Kayitlar telefonda kalir; yedek dosyasi, telefonun Google yedegi ve
+        telefon degistirme disinda cikmaz.

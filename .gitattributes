@@ -1,0 +1,4 @@
+# gizlilik.md, Kahvela'nin ozel notlarindaki yayin/gizlilik_politikasi.md
+# dosyasinin BIREBIR kopyasidir. Satir sonu LF'e civileniyor: Windows'ta
+# core.autocrlf calisma kopyasini CRLF yazar ve dogru bir kopya hatali gorunur.
+gizlilik.md text eol=lf
