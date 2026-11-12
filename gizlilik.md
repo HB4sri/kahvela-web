@@ -6,13 +6,13 @@
 
 ## Gizlilik Politikası
 
-**Sürüm:** 1.0 · **Yürürlük:** 26 Ekim 2026
+**Sürüm:** 1.1 · **Yürürlük:** 12 Kasım 2026
 **İletişim:** support@hb4.aleeas.com
 
 ### Özet
 
-Kahvela'nın sunucusu yok, hesap istemiyor ve internet izni bile yok. Kayıtlarınız telefonunuzda
-kalır. Telefondan çıkmasının yalnızca üç yolu vardır: sizin aldığınız yedek dosyası, telefonunuzun
+Kahvela'nın sunucusu yok, hesap istemiyor ve internet izni bile yok. Kayıtların telefonunda
+saklanır. Telefondan çıkmasının yalnızca üç yolu vardır: senin aldığın yedek dosyası, telefonunun
 Google yedeği ve telefon değiştirme.
 
 Bu politika, Kahvela (paket adı `com.hb4sri.coffee`) Android uygulaması için geçerlidir.
@@ -20,42 +20,42 @@ Bu politika, Kahvela (paket adı `com.hb4sri.coffee`) Android uygulaması için 
 ### Sorumlu
 
 Kahvela'yı bağımsız bir geliştirici olarak tek başıma yapıyorum; arkasında bir şirket yok.
-Sorularınız ve talepleriniz için bana yazabilirsiniz: **support@hb4.aleeas.com**
+Soruların ve taleplerin için bana yazabilirsin: **support@hb4.aleeas.com**
 
-### Telefonunuzda ne saklanıyor
+### Telefonunda ne saklanıyor
 
-Uygulamanın sakladığı her şey telefonunuzun kendi uygulama alanındadır.
+Uygulamanın sakladığı her şey telefonunun kendi uygulama alanındadır.
 
-**Çekirdekler ve aday listesi:** girdiğiniz bilgiler (ad, kavurucu, menşe, işlem, kavurma, kavurma
-tarihi, fiyat, paket ağırlığı, kalan miktar, notlar), eklediyseniz paketin fotoğrafı ve bir
-tarayıcıdan paylaştığınız mağaza sayfasının adresi.
+**Çekirdekler ve aday listesi:** girdiğin bilgiler (ad, kavurucu, menşe, işlem, kavurma, kavurma
+tarihi, fiyat, paket ağırlığı, kalan miktar, notlar), eklediysen paketin fotoğrafı ve bir
+tarayıcıdan paylaştığın mağaza sayfasının adresi.
 
-**Demlemeler:** tarih ve saat, yöntem, kullandığınız ekipman, öğütüm, kahve ve su miktarları,
+**Demlemeler:** tarih ve saat, yöntem, kullandığın ekipman, öğütüm, kahve ve su miktarları,
 tarif, süre, maliyet, tadım puanları, tatlar ve notlar.
 
-**Ekipman:** değirmen, makine, filtre ve demleyicilerinizin adları, ayarları ve eklediyseniz
+**Ekipman:** değirmen, makine, filtre ve demleyicilerinin adları, ayarları ve eklediysen
 fotoğrafları.
 
 **Ayarlar:** dil, para birimi, demleme tercihleri, bildirim ve hatırlatma tercihleri, otomatik
-yedek için seçtiğiniz klasör.
+yedek için seçtiğin klasör.
 
-**Saklanmayanlar:** adınız, e-posta adresiniz, telefon numaranız, konumunuz, cihaz kimliğiniz ve
-reklam kimliğiniz. Bunların hiçbiri istenmez ve saklanmaz.
+**Saklanmayanlar:** adın, e-posta adresin, telefon numaran, konumun, cihaz kimliğin ve
+reklam kimliğin. Bunların hiçbiri istenmez ve saklanmaz.
 
 ### Fotoğraflar ve bağlantılar
 
-Fotoğrafı telefonunuzun kamera uygulaması çeker ya da Android'in fotoğraf seçicisinden siz
-seçersiniz; uygulama yalnızca seçtiğiniz fotoğrafı alır, küçültülmüş bir kopyasını kendi alanında
+Fotoğrafı telefonunun kamera uygulaması çeker ya da Android'in fotoğraf seçicisinden sen
+seçersin; uygulama yalnızca seçtiğin fotoğrafı alır, küçültülmüş bir kopyasını kendi alanında
 saklar. Uygulamanın kamera ya da galeri izni yoktur.
 
-Bir tarayıcıdan paylaştığınız mağaza sayfasının yalnızca adresi saklanır. Rehber'deki kaynaklara ve
-mağaza bağlantılarına dokunduğunuzda sayfa tarayıcınızda açılır; o andan sonrası tarayıcının ve o
+Bir tarayıcıdan paylaştığın mağaza sayfasının yalnızca adresi saklanır. Rehber'deki kaynaklara ve
+mağaza bağlantılarına dokunduğunda sayfa tarayıcında açılır; o andan sonrası tarayıcının ve o
 sitenin kendi gizlilik kurallarına bağlıdır. Uygulama kendisi hiçbir siteye bağlanmaz.
 
 ### Reklam, analitik ve izleme
 
 Yoktur. Kahvela'da reklam ağı, analitik, çökme telemetrisi ve çapraz uygulama izleme bulunmaz.
-Reklam kimliğiniz okunmaz. Uygulamada üçüncü taraf bir veri toplama kütüphanesi paketlenmemiştir.
+Reklam kimliğin okunmaz. Uygulamada üçüncü taraf bir veri toplama kütüphanesi paketlenmemiştir.
 
 ### İzinler
 
@@ -64,7 +64,7 @@ veri gönderemez.
 
 İstenen izinler: demleme sayacının kilit ekranındaki bildirimi, süre dolunca uyarısı ve "tekrar
 tat" hatırlatması için `POST_NOTIFICATIONS`; uyarının tam zamanında gelmesi için
-`SCHEDULE_EXACT_ALARM` (Android ayarlarından siz açarsınız); Android 16'da sayacın canlı bildirim
+`SCHEDULE_EXACT_ALARM` (Android ayarlarından sen açarsın); Android 16'da sayacın canlı bildirim
 olarak görünmesi için `POST_PROMOTED_NOTIFICATIONS`; titreşim için `VIBRATE`; bekleyen soğuk
 demlemenin "hazır" uyarısını telefon yeniden açılınca kurmak için `RECEIVE_BOOT_COMPLETED`. Ayrıca
 uygulamanın kendi adıyla başlayan `DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION` vardır; bunu Android
@@ -73,30 +73,35 @@ erişimi vermez.
 
 ### Verinin telefondan çıkabileceği durumlar
 
-**1. Yedek dosyası.** Ayarlar'daki Yedek sayfasından kayıtlarınızı, ayarlarınızı ve fotoğraflarınızı
-tek bir dosyaya yazarsınız. Dosyanın nereye gideceğini siz seçersiniz: telefondaki bir klasör,
-Google Drive gibi bir hizmet ya da paylaşım ekranından seçtiğiniz bir uygulama (WhatsApp, e-posta).
-Otomatik yedeği açarsanız uygulama günde en çok bir kez, seçtiğiniz klasöre bir yedek yazar ve
+**1. Yedek dosyası.** Ayarlar'daki Yedek sayfasından kayıtlarını, ayarlarını ve fotoğraflarını
+tek bir dosyaya yazarsın. Dosyanın nereye gideceğini sen seçersin: telefondaki bir klasör,
+Google Drive gibi bir hizmet ya da paylaşım ekranından seçtiğin bir uygulama (WhatsApp, e-posta).
+Otomatik yedeği açarsan uygulama günde en çok bir kez, seçtiğin klasöre bir yedek yazar ve
 oradaki en yeni beş otomatik yedeği tutar; yalnızca kendi eski otomatik yedeklerini siler, klasördeki
-başka hiçbir dosyaya dokunmaz. **Yedek dosyası şifrelenmez;** kaydettiğiniz ya da gönderdiğiniz yer
+başka hiçbir dosyaya dokunmaz. **Yedek dosyası şifrelenmez;** kaydettiğin ya da gönderdiğin yer
 dosyayı okuyabilir.
 
-**2. Telefonunuzun Google yedeği.** Telefonunuzda Android'in yedeği açıksa Android, uygulamanın
-kayıtlarını ve ayarlarını Google hesabınıza yedekleyebilir. Paket ve ekipman fotoğrafları bu yedeğe
-girmez. Bu yedeği Android ve Google yönetir; uygulama ona ayrıca bir şey göndermez. Telefonunuzun
-yedek ayarlarından kapatabilirsiniz.
+**2. Telefonunun Google yedeği.** Telefonunda Android'in yedeği açıksa Android, uygulamanın
+kayıtlarını ve ayarlarını Google hesabına yedekleyebilir. Paket ve ekipman fotoğrafları bu yedeğe
+girmez. Bu yedeği Android ve Google yönetir; uygulama ona ayrıca bir şey göndermez. Telefonunun
+yedek ayarlarından kapatabilirsin.
 
 **3. Telefon değiştirme.** Yeni bir telefona geçerken Android'in aktarımı uygulamanın kayıtlarını,
-ayarlarını ve fotoğraflarını taşıyabilir. Bunu siz ve işletim sistemi başlatır.
+ayarlarını ve fotoğraflarını taşıyabilir. Aktarımı sen başlatırsın, Android yürütür.
+
+**Hata kaydı.** Uygulamada bir hata olursa hatanın türü, zamanı ve uygulamanın sürümü telefonunda
+küçük bir kayda yazılır. Yazdıkların bu kayda girmez. Kayıt telefonundan kendiliğinden çıkmaz;
+yalnızca sen paylaşırsan ya da geri bildirim e-postasına eklersen gider. Ayarlar'dan görebilir ve
+silebilirsin.
 
 ### Saklama süresi ve silme
 
-Kayıtlarınız siz silene ya da uygulamayı kaldırana kadar saklanır; süre sınırı yoktur. Çekirdekleri,
-adayları, demlemeleri ve ekipmanı uygulamanın içinden silebilirsiniz. Her şeyi birden silmek için
-telefonun ayarlarından uygulamanın verisini temizleyebilir ya da uygulamayı kaldırabilirsiniz;
-uygulamayı kaldırmak telefondaki bütün Kahvela verisini siler. Google hesabınızdaki yedek Google'ın
-kurallarına göre bir süre durabilir; onu Google hesabınızın ayarlarından silebilirsiniz. Aldığınız
-yedek dosyaları sizin dosyalarınızdır; onları bulundukları yerden siz silersiniz.
+Kayıtların sen silene ya da uygulamayı kaldırana kadar saklanır; süre sınırı yoktur. Çekirdekleri,
+adayları, demlemeleri ve ekipmanı uygulamanın içinden silebilirsin. Her şeyi birden silmek için
+telefonun ayarlarından uygulamanın verisini temizleyebilir ya da uygulamayı kaldırabilirsin;
+uygulamayı kaldırmak telefondaki bütün Kahvela verisini siler. Google hesabındaki yedek Google'ın
+kurallarına göre bir süre durabilir; onu Google hesabının ayarlarından silebilirsin. Aldığın
+yedek dosyaları senin dosyalarındır; onları bulundukları yerden sen silersin.
 
 ### Çocuklar
 
@@ -115,12 +120,12 @@ davranışını değiştiren bir güncelleme yayımlanırsa politika aynı sür�
 
 ## Privacy Policy
 
-**Version:** 1.0 · **Effective:** 26 October 2026
+**Version:** 1.1 · **Effective:** 12 November 2026
 **Contact:** support@hb4.aleeas.com
 
 ### Summary
 
-Kahvela has no server, no accounts, not even the internet permission. Your records stay on your
+Kahvela has no server, no accounts, not even the internet permission. Your records are stored on your
 phone. There are only three ways they can leave it: a backup file you make, your phone's Google
 backup, and switching phones.
 
@@ -197,6 +202,11 @@ in your phone's backup settings.
 
 **3. Switching phones.** When you move to a new phone, Android's transfer can carry the app's
 records, settings and photos. You and the operating system start this.
+
+**Error log.** If the app runs into an error, the error's type, time and the app's version are
+written to a small log on your phone. Nothing you wrote goes into it. The log does not leave your
+phone on its own; it goes only if you share it or add it to a feedback email. You can see and delete
+it in Settings.
 
 ### Retention and deletion
 
